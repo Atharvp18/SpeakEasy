@@ -1,0 +1,21 @@
+# Roadmap
+- [x] Prevent identical neighbouring avatars and evenly split audience rows.
+- [x] Practice room seated audience, button, fonts, captions, /api/speech
+- [x] 3D procedural audience with moods (uploaded spec)
+- [x] Practice button 10% bigger on landing page
+- [x] Scenario presets at top of practice room: Sales pitch, Interview, Speech
+- [x] Consistent corner radius everywhere (match captions box)
+- [~] Backend echo captions — removed at Astitva's request
+- [~] More human 3D people — dropped: Prakhar asked to go back to 2D
+- [~] Automatic moods / Room energy — replaced by moods from the backend
+- [x] Settings bar at top: more categories (who you talk to, setting) — Connor upload
+- [x] Practice button opens setup pop-up: purpose (Sales pitch/Interview/Speech), people count, Submit → room (Nathan upload)
+- [x] Back to 2D drawn figures; moods (bored/interested/listening/question) come from backend; emoji pop-ups
+- [x] /api/speech sends text + audience size + scenario to Gemini; per-member interest 1–10, hasQuestion, question text → drives 2D moods
+- [x] Captions do not auto-start; user clicks Start speaking
+- [x] Seated 2D avatars with poses (listening, interested, bored, hand raised, on phone) instead of standing figures over chairs
+- [x] Room header: remove mode buttons + slider; just show mode and people count
+- [x] Venue backgrounds behind audience; zoom by audience size; table in front for café
+- [x] Interview 4, Speech 16, max 16 people (2 rows)
+- [x] Replace Gemini audience prompt with Atharv's version
+- [x] One question plays at a time; others disabled; remove 'Read this out naturally'
